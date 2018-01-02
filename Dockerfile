@@ -23,7 +23,7 @@ RUN pacman -U *.pkg.* --noconfirm
 # Expose the correct ports and start/enable `unifi`
 EXPOSE 8443
 EXPOSE 8080
-EXPOSE 3478
+EXPOSE 3478/UDP
 EXPOSE 8843
 
 # Get some systemctl functionality
